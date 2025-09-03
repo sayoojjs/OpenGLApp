@@ -20,7 +20,7 @@ const GLint WIDTH = 1800, HEIGHT = 1600;
 const float toRadians = 3.14159265359 / 180.0f;
 
 
-GLuint VAO, VBO, Shader, uniformModel, uniformColor;
+GLuint VAO, VBO, Shader, IBO, uniformModel, uniformColor, uniformProjection;
 
 bool direction = true;
 float triOffset = 0.0f;
@@ -52,11 +52,15 @@ static const char* vShader = "                   \n\
                                                  \n\
 layout (location = 0) in vec3 pos;               \n\
                                                  \n\
+out vec4 vCol;                                   \n\
+                                                 \n\
 uniform mat4 model;                              \n\
+uniform mat4 projection;                         \n\
                                                  \n\
 void main()                                      \n\
 {                                                \n\
-	gl_Position = model * vec4(pos, 1.0); \n\
+	gl_Position = projection * model * vec4(pos, 1.0);        \n\
+    vCol = vec4(clamp(pos, 0.0f, 1.0f), 1.0f);   \n\
 }";                                                    
 
 
@@ -64,12 +68,15 @@ void main()                                      \n\
 static const char* fShader = "                   \n\
 #version 330                                     \n\
                                                  \n\
+in vec4 vCol;                                    \n\
+                                                 \n\
+                                                 \n\
 out vec4 colour;                                 \n\
-uniform vec4  inColor;                             \n\
+uniform vec4  inColor;                           \n\
                                                  \n\
 void main()                                      \n\
 {                                                \n\
-	colour = inColor;                             \n\
+	colour = vCol;                               \n\
 }";
 
 
@@ -89,15 +96,31 @@ void main()                                      \n\
 //Create triangle function
 void CreateTriangle()
 {
+	//Index for which point place in which order
+	unsigned int indices[] = {
+		0, 3, 1,
+		1, 3, 2,
+		2, 1, 0,
+		0, 1, 2
+
+	};
 
 	GLfloat vertices[] = {
-		-1.0f, -1.0f, 0.0f, 1.0f, -1.0f, 0.0f, 0.0f, 1.0f, 0.0f 
+		-1.0f, -1.0f, 0.0f,
+		0.0f, -1.0f, 1.0f,
+		1.0f, -1.0f, 0.0f,
+		0.0f, 1.0f, 0.0f 
 	
 	};
 
 	//How many vertex arrays
 	glGenVertexArrays(1, &VAO);
 	glBindVertexArray(VAO);
+	
+	//Binding data with buffers for indexing
+	glGenBuffers(1, &IBO);
+	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, IBO);
+	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
 
 	//How many vertex buffers
 	glGenBuffers(1, &VBO);
@@ -113,6 +136,7 @@ void CreateTriangle()
 
 
 	glBindBuffer(GL_ARRAY_BUFFER, 0);
+	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
 	glBindVertexArray(0);
 
 }
@@ -223,6 +247,7 @@ void CompileShaders()
 
 	uniformModel = glGetUniformLocation(Shader, "model");
 	uniformColor = glGetUniformLocation(Shader, "inColor");
+	uniformProjection = glGetUniformLocation(Shader, "projection");
 
 }
 
@@ -281,12 +306,18 @@ int main()
 		glfwTerminate();
 		return 1;
 	}
- 
+     
+	//To enable depth buffer - Z buffer
+	glEnable(GL_DEPTH_TEST);
+
 	// Setup viewport size
 	glViewport(0, 0, bufferWidth, bufferWidth);
 
 	CreateTriangle();
 	CompileShaders();
+
+	//Varible for projection
+	glm::mat4 projection = glm::perspective(45.0f, (GLfloat)bufferWidth / (GLfloat)bufferHeight, 0.1f, 100.0f);
 
 
     //Loop until the window close
@@ -346,8 +377,8 @@ int main()
 
 		// Clear window, R G B A (0 min 1 is max), normalised RGB 255 to 0 and 1
 		glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
-		glClear(GL_COLOR_BUFFER_BIT);
-
+		                              //Combined the depth buffer too
+		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);                             
 		glUseProgram(Shader);
 
 		glUniform4f(uniformColor, r, g, b, 1.0f);
@@ -357,18 +388,25 @@ int main()
 
 		//Apply triOffset value to on the top left corner of identity matrix, if you want to make diagonal translation you could change the  from here  glm::vec3(X, Y, Z) so no need to change through shader
 		
-		model = glm::translate(model, glm::vec3(triOffset, 0.0f, 0.0f));
-		model = glm::rotate(model, currentAngle, glm::vec3(triOffset, triOffset, 1.0f));
-		model = glm::scale(model, glm::vec3(curSize, curSize, 1.0f));
+		model = glm::translate(model, glm::vec3(triOffset, 0.0f, -2.5f));
+		//model = glm::rotate(model, currentAngle, glm::vec3(0.0f, 1.0f, 1.0f));
+		model = glm::scale(model, glm::vec3(0.4f, 0.4f, 1.0f));
 
 		//LEGACY TRANSFORM WITH UNIFORM VARIABLE
 		//glUniform1f(uniformXMove, triOffset);
 
 		//NEW TRANSFORM BASED ON MATRIX 
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		glUniformMatrix4fv(uniformProjection, 1, GL_FALSE, glm::value_ptr(projection));
+
 
 		glBindVertexArray(VAO);
-		glDrawArrays(GL_TRIANGLES, 0, 3);
+		//glDrawArrays(GL_TRIANGLES, 0, 3);
+
+		//Unbinding the data for drawing the 3D triangle 
+		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, IBO);
+		glDrawElements(GL_TRIANGLES, 12, GL_UNSIGNED_INT, 0);
+		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
 		glBindVertexArray(0);
 
 		glUseProgram(0);
