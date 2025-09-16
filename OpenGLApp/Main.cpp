@@ -5,6 +5,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <cmath>
+#include <vector>
 
 //GLEW AND GLFW libs
 #include <GL/glew.h>
@@ -15,12 +16,16 @@
 #include <glm\gtc\matrix_transform.hpp>
 #include <glm\gtc\type_ptr.hpp>
 
+#include "Mesh.h"
+
 //Window dimentions 
 const GLint WIDTH = 1800, HEIGHT = 1600;
 const float toRadians = 3.14159265359 / 180.0f;
 
+std::vector<Mesh*>  meshlist;
 
-GLuint VAO, VBO, Shader, IBO, uniformModel, uniformColor, uniformProjection;
+
+GLuint Shader, uniformModel, uniformColor, uniformProjection;
 
 bool direction = true;
 float triOffset = 0.0f;
@@ -113,31 +118,10 @@ void CreateTriangle()
 	
 	};
 
-	//How many vertex arrays
-	glGenVertexArrays(1, &VAO);
-	glBindVertexArray(VAO);
-	
-	//Binding data with buffers for indexing
-	glGenBuffers(1, &IBO);
-	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, IBO);
-	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+	Mesh *obj1 = new Mesh();
+	obj1->CreateMesh(vertices, indices, 12, 12);
+	meshlist.push_back(obj1);
 
-	//How many vertex buffers
-	glGenBuffers(1, &VBO);
-	//There are many type of buffers so we used "GL_ARRAY_BUFFER"
-	glBindBuffer(GL_ARRAY_BUFFER, VBO);
-	//Take all the vertecies data we created tp the buffer
-	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-
-
-	// UNCLEAR section 2  5th video from 13:45 
-	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0);
-	glEnableVertexAttribArray(0);
-
-
-	glBindBuffer(GL_ARRAY_BUFFER, 0);
-	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
-	glBindVertexArray(0);
 
 }
 
@@ -293,6 +277,7 @@ int main()
 	int bufferWidth, bufferHeight;
 	glfwGetFramebufferSize(mainwindow, &bufferWidth, &bufferHeight);
 
+
 	//Set context for GLEW to use, use the current or alternative window to draw to opengl fucntions
 	glfwMakeContextCurrent(mainwindow);
 
@@ -399,15 +384,8 @@ int main()
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		glUniformMatrix4fv(uniformProjection, 1, GL_FALSE, glm::value_ptr(projection));
 
+		meshlist[0]->RenderMesh();
 
-		glBindVertexArray(VAO);
-		//glDrawArrays(GL_TRIANGLES, 0, 3);
-
-		//Unbinding the data for drawing the 3D triangle 
-		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, IBO);
-		glDrawElements(GL_TRIANGLES, 12, GL_UNSIGNED_INT, 0);
-		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
-		glBindVertexArray(0);
 
 		glUseProgram(0);
 

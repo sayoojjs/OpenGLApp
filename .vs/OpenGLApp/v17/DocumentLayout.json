@@ -32,22 +32,9 @@
               "RelativeDocumentMoniker": "OpenGLApp\\Mesh.cpp",
               "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Mesh.cpp",
               "RelativeToolTip": "OpenGLApp\\Mesh.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-05T07:18:14.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Mesh.h",
-              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Mesh.h",
-              "RelativeDocumentMoniker": "OpenGLApp\\Mesh.h",
-              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Mesh.h",
-              "RelativeToolTip": "OpenGLApp\\Mesh.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-04T09:12:47.545Z",
               "EditorCaption": ""
             },
             {
@@ -58,10 +45,21 @@
               "RelativeDocumentMoniker": "OpenGLApp\\Main.cpp",
               "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Main.cpp",
               "RelativeToolTip": "OpenGLApp\\Main.cpp",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-29T14:21:41.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T14:21:41.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mesh.h",
+              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Mesh.h",
+              "RelativeDocumentMoniker": "OpenGLApp\\Mesh.h",
+              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Mesh.h",
+              "RelativeToolTip": "OpenGLApp\\Mesh.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-04T09:12:47.545Z"
             }
           ]
         }

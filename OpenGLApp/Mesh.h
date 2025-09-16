@@ -10,7 +10,7 @@ public:
 	void RenderMesh();
 	void ClearMesh();
 
-	~Mesh();
+	~Mesh(); 
 
 private:
 	GLuint VAO, VBO, IBO;

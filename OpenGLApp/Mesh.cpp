@@ -9,7 +9,7 @@ Mesh::Mesh()
 	indexCount = 0;
 }
 
-void Mesh::CreateMesh(GLfloat* vertices, unsigned int* indices, unsigned int numofVertices, unsigned int numberofIndices)
+void Mesh::CreateMesh(GLfloat *vertices, unsigned int *indices, unsigned int numofVertices, unsigned int numberofIndices)
 {
 	{
 		indexCount = numberofIndices;
@@ -21,14 +21,14 @@ void Mesh::CreateMesh(GLfloat* vertices, unsigned int* indices, unsigned int num
 		//Binding data with buffers for indexing
 		glGenBuffers(1, &IBO);
 		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, IBO);
-		glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices[0] * numberofIndices), indices, GL_STATIC_DRAW);
+		glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices[0]) * numberofIndices, indices, GL_STATIC_DRAW);
 
 		//How many vertex buffers
 		glGenBuffers(1, &VBO);
 		//There are many type of buffers so we used "GL_ARRAY_BUFFER"
 		glBindBuffer(GL_ARRAY_BUFFER, VBO);
 		//Take all the vertecies data we created tp the buffer
-		glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+		glBufferData(GL_ARRAY_BUFFER, sizeof(vertices[0]) * numofVertices, vertices, GL_STATIC_DRAW);
 
 
 		// UNCLEAR section 2  5th video from 13:45 
@@ -38,6 +38,47 @@ void Mesh::CreateMesh(GLfloat* vertices, unsigned int* indices, unsigned int num
 
 		glBindBuffer(GL_ARRAY_BUFFER, 0);
 		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
+
 		glBindVertexArray(0);
 	}
+
+	
+}
+void Mesh::RenderMesh()
+{
+	glBindVertexArray(VAO);
+	//glDrawArrays(GL_TRIANGLES, 0, 3);
+
+	//Unbinding the data for drawing the 3D triangle 
+	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, IBO);
+	glDrawElements(GL_TRIANGLES, indexCount, GL_UNSIGNED_INT, 0);
+	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
+	glBindVertexArray(0);
+}
+
+// Deleting the buffer from gpu memory
+void Mesh::ClearMesh()
+{
+	if (IBO != 0)
+	{
+		glDeleteBuffers(1, &IBO);
+		IBO = 0;
+	}
+	if (VBO != 0)
+	{
+		glDeleteBuffers(1, &VBO);
+		VBO = 0;
+	}
+	if (VAO != 0)
+	{
+		glDeleteVertexArrays(1, &VAO);
+		VAO = 0;
+	}
+
+	indexCount = 0;
+}
+
+Mesh::~Mesh()
+{
+	ClearMesh();
 }
