@@ -122,6 +122,11 @@ void CreateTriangle()
 	obj1->CreateMesh(vertices, indices, 12, 12);
 	meshlist.push_back(obj1);
 
+	Mesh* obj2 = new Mesh();
+	obj2->CreateMesh(vertices, indices, 12, 12);
+	meshlist.push_back(obj2);
+
+
 
 }
 
@@ -386,6 +391,18 @@ int main()
 
 		meshlist[0]->RenderMesh();
 
+		model = glm::mat4();
+		model = glm::translate(model, glm::vec3(triOffset, 1.0f, -2.5f));
+		//model = glm::rotate(model, currentAngle, glm::vec3(0.0f, 1.0f, 1.0f));
+		model = glm::scale(model, glm::vec3(0.4f, 0.4f, 1.0f));
+
+		//LEGACY TRANSFORM WITH UNIFORM VARIABLE
+		//glUniform1f(uniformXMove, triOffset);
+
+		//NEW TRANSFORM BASED ON MATRIX 
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		glUniformMatrix4fv(uniformProjection, 1, GL_FALSE, glm::value_ptr(projection));
+		meshlist[1]->RenderMesh();
 
 		glUseProgram(0);
 

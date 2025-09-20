@@ -78,6 +78,8 @@ void Mesh::ClearMesh()
 	indexCount = 0;
 }
 
+
+
 Mesh::~Mesh()
 {
 	ClearMesh();
