@@ -39,8 +39,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-05T07:18:14.76Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -50,7 +49,7 @@
               "RelativeDocumentMoniker": "OpenGLApp\\Shader.h",
               "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Shader.h",
               "RelativeToolTip": "OpenGLApp\\Shader.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-09-19T14:14:49.799Z",
               "EditorCaption": ""
@@ -65,8 +64,7 @@
               "RelativeToolTip": "OpenGLApp\\Main.cpp",
               "ViewState": "AgIAAFIBAAAAAAAAAAAIwJMBAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-29T14:21:41.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T14:21:41.994Z"
             },
             {
               "$type": "Document",

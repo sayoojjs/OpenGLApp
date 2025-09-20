@@ -24,11 +24,14 @@ public:
 
 	~Shader();
 
+
+
+
 private: 
 	GLuint shaderID, uniformModel, uniformColor, uniformProjection;
 
 	void CompileShader(const char* vertexCode, const char* fragmentCode);
-	void  AddShader();
+	void  AddShader(GLuint theProgram, const char* shaderCode, GLenum ShaderType);
 
 };
 
