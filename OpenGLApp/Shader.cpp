@@ -61,12 +61,67 @@ void Shader::CompileShader(const char* vertexCode, const char* fragmentCode)
 	uniformProjection = glGetUniformLocation(shaderID, "projection");
 }
 
+GLuint Shader::GetProjectionLocation()
+{
+	return uniformProjection;
+}
+GLuint Shader::GetModelLocation()
+{
+	return uniformModel;
+}
+
+
+
+void Shader::UseShader()
+{
+	glUseProgram(shaderID);
+}
+
+void Shader::ClearShader()
+{
+	if (shaderID != 0)
+	{
+		glDeleteProgram(shaderID);
+		shaderID = 0;
+	 }
+	uniformModel = 0;
+	uniformProjection = 0;
+
+}
+
 void  Shader::AddShader(GLuint theProgram, const char* shaderCode, GLenum ShaderType)
 {
+
+	GLuint theShader = glCreateShader(ShaderType);
+
+	const GLchar* theCode[1];
+	theCode[0] = shaderCode;
+
+	GLint codeLength[1];
+	codeLength[0] = strlen(shaderCode);
+
+	glShaderSource(theShader, 1, theCode, codeLength);
+	glCompileShader(theShader);
+
+	//Error checking / pickup errors
+	GLint result = 0;
+	GLchar eLog[1024] = { 0 };
+
+	glGetShaderiv(theShader, GL_COMPILE_STATUS, &result);
+
+	if (!result)
+	{
+		glGetShaderInfoLog(theShader, sizeof(eLog), NULL, eLog);
+		printf("Error compiling  the shader %d: '%s'\n", ShaderType, eLog);
+		return;
+
+	}
+
+	glAttachShader(theProgram, theShader);
 
 }
 
 Shader::~Shader()
 {
-
+	ClearShader();
 }

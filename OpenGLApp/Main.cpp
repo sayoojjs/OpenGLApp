@@ -17,15 +17,17 @@
 #include <glm\gtc\type_ptr.hpp>
 
 #include "Mesh.h"
+#include "Shader.h"
 
 //Window dimentions 
 const GLint WIDTH = 1800, HEIGHT = 1600;
 const float toRadians = 3.14159265359 / 180.0f;
 
 std::vector<Mesh*>  meshlist;
+std::vector<Shader> shaderList;
 
 
-GLuint Shader, uniformModel, uniformColor, uniformProjection;
+GLuint shader, uniformModel, uniformColor, uniformProjection;
 
 bool direction = true;
 float triOffset = 0.0f;
@@ -99,7 +101,7 @@ void main()                                      \n\
 /*--------------------------------------------------------------*/
 
 //Create triangle function
-void CreateTriangle()
+void CreateObjects()
 {
 	//Index for which point place in which order
 	unsigned int indices[] = {
@@ -195,52 +197,59 @@ void AddShader(GLuint theProgram, const char* shaderCode, GLenum ShaderType)
 void CompileShaders()
 {
 
-	Shader = glCreateProgram();
+	shader = glCreateProgram();
 
-	if (!Shader) 
+	if (!shader) 
 	{
 		printf("Error creating shader\n");
 		glfwTerminate();
 		return;
 	 }
 
-	AddShader(Shader, vShader,GL_VERTEX_SHADER);
-	AddShader(Shader, fShader, GL_FRAGMENT_SHADER);
+	AddShader(shader, vShader,GL_VERTEX_SHADER);
+	AddShader(shader, fShader, GL_FRAGMENT_SHADER);
 
 
 	//Picking up error 
 	GLint result = 0;
 	GLchar eLog[1024] = { 0 };
 
-	glLinkProgram(Shader);
-	glGetProgramiv(Shader, GL_LINK_STATUS, &result);
+	glLinkProgram(shader);
+	glGetProgramiv(shader, GL_LINK_STATUS, &result);
 
 	if (!result)
 	{
-		glGetProgramInfoLog(Shader, sizeof(eLog), NULL, eLog);
+		glGetProgramInfoLog(shader, sizeof(eLog), NULL, eLog);
 		printf("Error Linking program: '%s'\n", eLog);
 		return;
 
 	}
 
-	glValidateProgram(Shader);
-	glGetProgramiv(Shader, GL_VALIDATE_STATUS, &result);
+	glValidateProgram(shader);
+	glGetProgramiv(shader, GL_VALIDATE_STATUS, &result);
 
 	if (!result)
 	{
-		glGetProgramInfoLog(Shader, sizeof(eLog), NULL, eLog);
+		glGetProgramInfoLog(shader, sizeof(eLog), NULL, eLog);
 		printf("Error Linking program: '%s'\n", eLog);
 		return;
 
 	}
 
-	uniformModel = glGetUniformLocation(Shader, "model");
-	uniformColor = glGetUniformLocation(Shader, "inColor");
-	uniformProjection = glGetUniformLocation(Shader, "projection");
+	uniformModel = glGetUniformLocation(shader, "model");
+	uniformColor = glGetUniformLocation(shader, "inColor");
+	uniformProjection = glGetUniformLocation(shader, "projection");
 
 }
 
 /*--------------------------------------------------------------*/
+
+void CreateShaders()
+{
+	Shader* shader1 = new Shader();
+	shader1->CreateFromString(vShader, fShader);
+	shaderList.push_back(*shader1);
+}
 
 
 
@@ -303,8 +312,8 @@ int main()
 	// Setup viewport size
 	glViewport(0, 0, bufferWidth, bufferWidth);
 
-	CreateTriangle();
-	CompileShaders();
+	CreateObjects();
+	CreateShaders();
 
 	//Varible for projection
 	glm::mat4 projection = glm::perspective(45.0f, (GLfloat)bufferWidth / (GLfloat)bufferHeight, 0.1f, 100.0f);
@@ -369,7 +378,7 @@ int main()
 		glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
 		                              //Combined the depth buffer too
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);                             
-		glUseProgram(Shader);
+		glUseProgram(shader);
 
 		glUniform4f(uniformColor, r, g, b, 1.0f);
 
