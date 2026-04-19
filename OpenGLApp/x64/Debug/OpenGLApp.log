@@ -1,0 +1,16 @@
+﻿  Main.cpp
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Window.h(18,36): warning C4244: 'return': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Window.h(19,37): warning C4244: 'return': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Main.cpp(24,39): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Window.cpp
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Window.h(18,36): warning C4244: 'return': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Window.h(19,37): warning C4244: 'return': conversion from 'GLint' to 'GLfloat', possible loss of data
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Window.cpp(127,22): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Window.cpp(128,22): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Window.cpp(132,28): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Window.cpp(135,40): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Window.cpp(138,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Window.cpp(139,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  Generating Code...
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Window.cpp(87): warning C4715: 'Window::initialise': not all control paths return a value
+  OpenGLApp.vcxproj -> C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\x64\Debug\OpenGLApp.exe

@@ -1,6 +1,8 @@
 #include "Shader.h"
 #include <GLFW/glfw3.h>
-
+#include <iostream>
+#include <fstream>
+#include <string>
 
 
 Shader::Shader()
@@ -14,6 +16,39 @@ void Shader::CreateFromString(const char* vertexCode, const char* fragmentCode)
 {
 	CompileShader(vertexCode, fragmentCode);
 }
+ 
+void Shader::CreateFromFiles(const char* vertexLocation, const char* fragmentLocation)
+{
+	std::string vertexString = ReadFile(vertexLocation);
+	std::string fragmentString = ReadFile(fragmentLocation);
+	const char* vertexCode = vertexString.c_str();
+	const char* fragmentCode = fragmentString.c_str();
+
+	CompileShader(vertexCode, fragmentCode);
+}
+
+std::string Shader::ReadFile(const char* fileLocation)
+{
+	std::string content;
+	std::ifstream filestream(fileLocation, std::ios::in);
+
+	if (!filestream.is_open()) 
+	{
+		printf("Failed gto read %s! File doesnt exist", fileLocation);
+		return "";
+	}
+
+	std::string line = "";
+	while (!filestream.eof())
+	{
+		std::getline(filestream, line);
+		content.append(line + "\n");
+	}
+
+	filestream.close();
+	return content;
+}
+  
 
 void Shader::CompileShader(const char* vertexCode, const char* fragmentCode)
 {

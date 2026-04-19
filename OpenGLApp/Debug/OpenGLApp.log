@@ -1,0 +1,18 @@
+﻿  Main.cpp
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Main.cpp(24,39): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Mesh.cpp
+  Shader.cpp
+  Generating Code...
+Main.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function "void __cdecl CompileShaders(void)" (?CompileShaders@@YAXXZ)
+Shader.obj : error LNK2001: unresolved external symbol _glfwTerminate
+Main.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwDestroyWindow referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwGetFramebufferSize referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLFW\lib-vc2022\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\Debug\OpenGLApp.exe : fatal error LNK1120: 10 unresolved externals
