@@ -1,6 +1,6 @@
 #pragma once
 
-#include <stdio.h>
+#include "stdio.h"
 
 #include <GL\glew.h>
 #include <GLFW\glfw3.h>
@@ -8,49 +8,40 @@
 class Window
 {
 public:
-
 	Window();
 
 	Window(GLint windowWidth, GLint windowHeight);
 
-	int initialise();
+	int Initialise();
 
-	GLfloat getBufferWidth() { return bufferWidth; }
-	GLfloat getBufferHeight() { return bufferHeight; }
+	GLint getBufferWidth() { return bufferWidth; }
+	GLint getBufferHeight() { return bufferHeight; }
 
 	bool getShouldClose() { return glfwWindowShouldClose(mainWindow); }
 
 	bool* getsKeys() { return keys; }
+	GLfloat getXChange();
+	GLfloat getYChange();
 
-	GLfloat getXchange();
-	GLfloat getYchange();
-
-	void swapbuffers() { glfwSwapBuffers(mainWindow); }
+	void swapBuffers() { glfwSwapBuffers(mainWindow); }
 
 	~Window();
 
 private:
-
 	GLFWwindow* mainWindow;
 
 	GLint width, height;
 	GLint bufferWidth, bufferHeight;
 
-	//Keybody ASCII code for input
 	bool keys[1024];
 
-	// Variables for mouse input (comparing last coordinates with present)
 	GLfloat lastX;
 	GLfloat lastY;
 	GLfloat xChange;
 	GLfloat yChange;
 	bool mouseFirstMoved;
-    
-	void CreateCallbacks();
+
+	void createCallbacks();
 	static void handleKeys(GLFWwindow* window, int key, int code, int action, int mode);
 	static void handleMouse(GLFWwindow* window, double xPos, double yPos);
-
-
-
 };
-
