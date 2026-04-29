@@ -1,7 +1,10 @@
 C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Camera.cpp;C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\x64\Debug\Camera.obj
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\DirectionalLight.cpp;C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\x64\Debug\DirectionalLight.obj
 C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Light.cpp;C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\x64\Debug\Light.obj
 C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Main.cpp;C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\x64\Debug\Main.obj
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Material.cpp;C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\x64\Debug\Material.obj
 C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Mesh.cpp;C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\x64\Debug\Mesh.obj
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\PointLight.cpp;C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\x64\Debug\PointLight.obj
 C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Shader.cpp;C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\x64\Debug\Shader.obj
 C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Texture.cpp;C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\x64\Debug\Texture.obj
 C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\Window.cpp;C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp\x64\Debug\Window.obj

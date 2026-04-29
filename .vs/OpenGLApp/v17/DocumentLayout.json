@@ -3,30 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Light.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Light.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -35,20 +11,36 @@
       "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\PointLight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\PointLight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Mesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Mesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\PointLight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\PointLight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\CommonValues.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\CommonValues.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Light.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Light.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\DirectionalLight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\DirectionalLight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\DirectionalLight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\DirectionalLight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Light.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Light.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,164 +50,133 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Main.cpp",
               "RelativeDocumentMoniker": "OpenGLApp\\Main.cpp",
               "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Main.cpp",
               "RelativeToolTip": "OpenGLApp\\Main.cpp",
-              "ViewState": "AgIAAGQAAAAAAAAAAADwv24AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAjwIYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-16T15:32:30.71Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Camera.cpp",
-              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Camera.cpp",
-              "RelativeDocumentMoniker": "OpenGLApp\\Camera.cpp",
-              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Camera.cpp",
-              "RelativeToolTip": "OpenGLApp\\Camera.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-26T09:09:41.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Window.cpp",
-              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Window.cpp",
-              "RelativeDocumentMoniker": "OpenGLApp\\Window.cpp",
-              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Window.cpp",
-              "RelativeToolTip": "OpenGLApp\\Window.cpp",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAwI4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-17T16:37:07.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Mesh.cpp",
-              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Mesh.cpp",
-              "RelativeDocumentMoniker": "OpenGLApp\\Mesh.cpp",
-              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Mesh.cpp",
-              "RelativeToolTip": "OpenGLApp\\Mesh.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-17T05:45:58.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Mesh.h",
-              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Mesh.h",
-              "RelativeDocumentMoniker": "OpenGLApp\\Mesh.h",
-              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Mesh.h",
-              "RelativeToolTip": "OpenGLApp\\Mesh.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CommonValues.h",
+              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\CommonValues.h",
+              "RelativeDocumentMoniker": "OpenGLApp\\CommonValues.h",
+              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\CommonValues.h",
+              "RelativeToolTip": "OpenGLApp\\CommonValues.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-17T06:51:46.527Z",
+              "WhenOpened": "2026-04-29T08:21:36.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Shader.cpp",
               "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Shader.cpp",
               "RelativeDocumentMoniker": "OpenGLApp\\Shader.cpp",
               "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Shader.cpp",
               "RelativeToolTip": "OpenGLApp\\Shader.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-16T17:02:23.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Shader.h",
-              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Shader.h",
-              "RelativeDocumentMoniker": "OpenGLApp\\Shader.h",
-              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Shader.h",
-              "RelativeToolTip": "OpenGLApp\\Shader.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-17T13:55:40.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Window.h",
-              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Window.h",
-              "RelativeDocumentMoniker": "OpenGLApp\\Window.h",
-              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Window.h",
-              "RelativeToolTip": "OpenGLApp\\Window.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-17T15:51:22.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Texture.h",
-              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Texture.h",
-              "RelativeDocumentMoniker": "OpenGLApp\\Texture.h",
-              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Texture.h",
-              "RelativeToolTip": "OpenGLApp\\Texture.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-26T09:09:30.977Z",
+              "WhenOpened": "2026-04-28T08:45:49.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Texture.cpp",
-              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Texture.cpp",
-              "RelativeDocumentMoniker": "OpenGLApp\\Texture.cpp",
-              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Texture.cpp",
-              "RelativeToolTip": "OpenGLApp\\Texture.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAADwvx4AAAAAAAAAAAAAAA==",
+              "Title": "Shader.h",
+              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Shader.h",
+              "RelativeDocumentMoniker": "OpenGLApp\\Shader.h",
+              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Shader.h",
+              "RelativeToolTip": "OpenGLApp\\Shader.h",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-28T08:19:03.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PointLight.cpp",
+              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\PointLight.cpp",
+              "RelativeDocumentMoniker": "OpenGLApp\\PointLight.cpp",
+              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\PointLight.cpp",
+              "RelativeToolTip": "OpenGLApp\\PointLight.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-26T09:10:51.704Z",
+              "WhenOpened": "2026-04-28T07:56:59.305Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "PointLight.h",
+              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\PointLight.h",
+              "RelativeDocumentMoniker": "OpenGLApp\\PointLight.h",
+              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\PointLight.h",
+              "RelativeToolTip": "OpenGLApp\\PointLight.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-27T15:32:55.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DirectionalLight.cpp",
+              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\DirectionalLight.cpp",
+              "RelativeDocumentMoniker": "OpenGLApp\\DirectionalLight.cpp",
+              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\DirectionalLight.cpp",
+              "RelativeToolTip": "OpenGLApp\\DirectionalLight.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-27T11:31:25.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DirectionalLight.h",
+              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\DirectionalLight.h",
+              "RelativeDocumentMoniker": "OpenGLApp\\DirectionalLight.h",
+              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\DirectionalLight.h",
+              "RelativeToolTip": "OpenGLApp\\DirectionalLight.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-27T11:06:12.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Light.h",
               "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Light.h",
               "RelativeDocumentMoniker": "OpenGLApp\\Light.h",
               "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Light.h",
               "RelativeToolTip": "OpenGLApp\\Light.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-26T09:09:08.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T09:09:08.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Camera.h",
-              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Camera.h",
-              "RelativeDocumentMoniker": "OpenGLApp\\Camera.h",
-              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Camera.h",
-              "RelativeToolTip": "OpenGLApp\\Camera.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-26T09:08:54.25Z",
-              "EditorCaption": ""
+              "DocumentIndex": 9,
+              "Title": "Light.cpp",
+              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Light.cpp",
+              "RelativeDocumentMoniker": "OpenGLApp\\Light.cpp",
+              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\OpenGLApp\\OpenGLApp\\Light.cpp",
+              "RelativeToolTip": "OpenGLApp\\Light.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-26T09:35:28.49Z"
             }
           ]
         }
