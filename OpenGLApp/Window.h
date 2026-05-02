@@ -24,6 +24,14 @@ public:
 	GLfloat getYChange();
 
 	void swapBuffers() { glfwSwapBuffers(mainWindow); }
+	GLFWwindow* GetGLFWwindow() { return mainWindow; }
+
+	void SetCursorEnabled(bool enabled)
+	{
+		glfwSetInputMode(mainWindow, GLFW_CURSOR,
+			enabled ? GLFW_CURSOR_NORMAL : GLFW_CURSOR_DISABLED);
+		if (!enabled) mouseFirstMoved = true;
+	}
 
 	~Window();
 

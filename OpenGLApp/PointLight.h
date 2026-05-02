@@ -15,6 +15,41 @@ public:
         GLfloat diffuseIntensityLocation, GLfloat positionLocation,
         GLfloat constantLocation, GLfloat linearLocaction, GLfloat exponentLocation);
 
+    void  SetPosition(float x, float y, float z) 
+    { 
+             position = glm::vec3(x, y, z); 
+    }
+    void  SetAmbientIntensity(float i) 
+    { 
+           ambientIntensity = i;
+    }
+    void  SetDiffuseIntensity(float i) 
+    { 
+        diffuseIntensity = i; 
+    }
+    glm::vec3 GetPosition()         const 
+    { 
+        return position; 
+    }
+    float     GetAmbientIntensity() const 
+    { 
+        return ambientIntensity; 
+    }
+    float     GetDiffuseIntensity() const 
+    { 
+        return diffuseIntensity; 
+    }
+    void SetColour(float r, float g, float b)
+    {
+        colour = glm::vec3(r, g, b);
+    }
+
+    glm::vec3 GetColour() const 
+    { 
+        return colour; 
+    }
+
+
     ~PointLight();
 
 private:

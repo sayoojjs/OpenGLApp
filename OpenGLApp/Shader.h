@@ -32,6 +32,18 @@ public:
 	GLuint GetSpecularIntensityLocation();
 	GLuint GetShininessLocation();
 	GLuint GetEyePositionLocation();
+	GLuint GetRoughnessMapLocation();
+	GLuint GetUseRoughnessMapLocation();
+	GLuint GetNormalMapLocation();
+	GLuint GetUseNormalMapLocation();
+	GLuint GetShaderID() const
+	{
+		return shaderID;
+	}
+	void SetUseNormalMap(bool use);
+	void SetNormalStrength(float strength);
+	void SetRoughnessIntensity(float intensity);
+
 
 	void SetDirectionalLight(DirectionalLight* dLight);
 	void SetPointLights(PointLight* pLight, unsigned int lightCount);
@@ -77,6 +89,14 @@ private:
 
 	} uniformPointLight[MAX_POINT_LIGHTS];
 
+
+	GLuint uniformRoughnessMap;
+	GLuint uniformUseRoughnessMap;
+	GLuint uniformRoughnessIntensity;
+
+	GLuint uniformNormalMap;
+	GLuint uniformUseNormalMap;
+	GLuint uniformNormalStrength;
 
 	void CompileShader(const char* vertexCode, const char* fragmentCode);
 	void AddShader(GLuint theProgram, const char* shaderCode, GLenum shaderType);

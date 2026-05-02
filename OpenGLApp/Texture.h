@@ -13,6 +13,12 @@ public:
 	void LoadTexture();
 	void UseTexture();
 	void ClearTexture();
+	void UseNormalMap();
+	void LoadTextureA();
+	GLuint GetID() const
+	{
+		return textureID;
+	}
 
 	~Texture();
 

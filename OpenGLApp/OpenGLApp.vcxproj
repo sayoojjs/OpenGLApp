@@ -19,8 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="backends\imgui_impl_glfw.cpp" />
+    <ClCompile Include="backends\imgui_impl_opengl3.cpp" />
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="DirectionalLight.cpp" />
+    <ClCompile Include="imgui.cpp" />
+    <ClCompile Include="imgui_demo.cpp" />
+    <ClCompile Include="imgui_draw.cpp" />
+    <ClCompile Include="imgui_tables.cpp" />
+    <ClCompile Include="imgui_widgets.cpp" />
     <ClCompile Include="Light.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Material.cpp" />
@@ -31,9 +38,18 @@
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="backends\imgui_impl_glfw.h" />
+    <ClInclude Include="backends\imgui_impl_opengl3.h" />
+    <ClInclude Include="backends\imgui_impl_opengl3_loader.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="CommonValues.h" />
     <ClInclude Include="DirectionalLight.h" />
+    <ClInclude Include="imconfig.h" />
+    <ClInclude Include="imgui.h" />
+    <ClInclude Include="imgui_internal.h" />
+    <ClInclude Include="imstb_rectpack.h" />
+    <ClInclude Include="imstb_textedit.h" />
+    <ClInclude Include="imstb_truetype.h" />
     <ClInclude Include="Light.h" />
     <ClInclude Include="Material.h" />
     <ClInclude Include="Mesh.h" />
@@ -100,7 +116,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLEW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLFW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLM;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLEW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLFW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLM;C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -117,7 +133,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLEW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLFW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLM;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLEW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLFW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLM;C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -134,7 +150,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLEW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLFW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLM;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLEW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLFW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLM;C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -151,7 +167,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLEW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLFW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLM;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLEW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLFW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLM;C:\Users\sayoo\Documents\Visual Studio 2022\Projects\OpenGLApp\OpenGLApp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

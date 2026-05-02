@@ -92,6 +92,23 @@ void Shader::CompileShader(const char* vertexCode, const char* fragmentCode)
 
 	uniformPointLightCount = glGetUniformLocation(shaderID, "pointLightCount");
 
+	uniformRoughnessMap = glGetUniformLocation(shaderID, "roughnessMap");
+	uniformUseRoughnessMap = glGetUniformLocation(shaderID, "useRoughnessMap");
+	uniformRoughnessIntensity = glGetUniformLocation(shaderID, "roughnessIntensity");
+
+	uniformNormalMap = glGetUniformLocation(shaderID, "normalMap");
+	uniformUseNormalMap = glGetUniformLocation(shaderID, "useNormalMap");
+	uniformNormalStrength = glGetUniformLocation(shaderID, "normalStrength");
+
+	glUseProgram(shaderID);
+	GLint theTexLoc = glGetUniformLocation(shaderID, "theTexture");
+	if (theTexLoc != -1) glUniform1i(theTexLoc, 0);
+	GLint iconTexLoc = glGetUniformLocation(shaderID, "iconTexture");
+	if (iconTexLoc != -1) glUniform1i(iconTexLoc, 0);
+	glUniform1i(uniformNormalMap, 1);
+	glUniform1i(uniformRoughnessMap, 2);
+	glUseProgram(0);
+
 
 	for (size_t i = 0; i < MAX_POINT_LIGHTS; i++)
 	{
@@ -158,6 +175,34 @@ GLuint Shader::GetShininessLocation()
 GLuint Shader::GetEyePositionLocation()
 {
 	return uniformEyePosition;
+}
+GLuint Shader::GetRoughnessMapLocation()
+{
+	return uniformRoughnessMap;
+}
+GLuint Shader::GetUseRoughnessMapLocation()
+{
+	return uniformUseRoughnessMap;
+}
+GLuint Shader::GetNormalMapLocation()
+{
+	return uniformNormalMap;
+}
+GLuint Shader::GetUseNormalMapLocation()
+{
+	return uniformUseNormalMap;
+}
+void Shader::SetUseNormalMap(bool use)
+{
+	glUniform1i(uniformUseNormalMap, use ? 1 : 0);
+}
+void Shader::SetNormalStrength(float strength)
+{
+	glUniform1f(uniformNormalStrength, strength);
+}
+void Shader::SetRoughnessIntensity(float intensity)
+{
+	glUniform1f(uniformRoughnessIntensity, intensity);
 }
 
 void Shader::SetDirectionalLight(DirectionalLight* dLight)

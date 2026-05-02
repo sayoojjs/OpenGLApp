@@ -28,6 +28,7 @@ Window::Window(GLint windowWidth, GLint windowHeight)
 	yChange = 0.0f;
 }
 
+
 int Window::Initialise()
 {
 	if (!glfwInit())
@@ -90,6 +91,7 @@ void Window::createCallbacks()
 	glfwSetKeyCallback(mainWindow, handleKeys);
 	glfwSetCursorPosCallback(mainWindow, handleMouse);
 }
+
 
 GLfloat Window::getXChange()
 {
