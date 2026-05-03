@@ -20,6 +20,8 @@ public:
 
 	glm::mat4 calculateViewMatrix();
 
+	glm::vec3 getCameraDirection();
+
 	~Camera();
 
 private:
