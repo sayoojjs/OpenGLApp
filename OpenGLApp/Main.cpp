@@ -25,7 +25,6 @@
 #include "Material.h"
 
 
-
 const float toRadians = 3.14159265f / 180.0f;
 
 Window mainWindow;
@@ -148,9 +147,9 @@ int main()
 	camera = Camera(glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 1.0f, 0.0f), -90.0f, 0.0f, 5.0f, 0.5f);
 
 	brickTexture = Texture("Textures/brick.png");
-	brickTexture.LoadTexture();
+	brickTexture.LoadTextureA();
 	dirtTexture = Texture("Textures/dirt.png");
-	dirtTexture.LoadTexture();
+	dirtTexture.LoadTextureA();
 
 	shinyMaterial = Material(2.0f, 64);
 	dullMaterial = Material(0.3f, 4);
@@ -193,6 +192,8 @@ int main()
 	GLuint uniformProjection = 0, uniformModel = 0, uniformView = 0, uniformEyePoisiton = 0,
            uniformSpecularIntensity = 0, uniformShininess = 0;
 	glm::mat4 projection = glm::perspective(glm::radians(45.0f), (GLfloat)mainWindow.getBufferWidth() / mainWindow.getBufferHeight(), 0.1f, 100.0f);
+
+
 
 	// Loop until window closed
 	while (!mainWindow.getShouldClose())

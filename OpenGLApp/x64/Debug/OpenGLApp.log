@@ -1,4 +1,4 @@
 ﻿  Main.cpp
-C:\Users\sayoo\Documents\Visual Studio 2022\Projects\main\SynthWave-Engine\OpenGLApp\Main.cpp(78,24): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Users\sayoo\Documents\Visual Studio 2022\Projects\main\SynthWave-Engine\OpenGLApp\Main.cpp(200,15): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\main\SynthWave-Engine\OpenGLApp\Main.cpp(79,24): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\main\SynthWave-Engine\OpenGLApp\Main.cpp(204,15): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
   OpenGLApp.vcxproj -> C:\Users\sayoo\Documents\Visual Studio 2022\Projects\main\SynthWave-Engine\x64\Debug\OpenGLApp.exe

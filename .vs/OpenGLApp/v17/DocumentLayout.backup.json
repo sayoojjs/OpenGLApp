@@ -7,16 +7,30 @@
       "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\USERS\\SAYOO\\DOCUMENTS\\VISUAL STUDIO 2022\\EXTERNAL_LIBS\\ASSIMP\\INCLUDE\\ASSIMP\\DEFS.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\USERS\\SAYOO\\DOCUMENTS\\VISUAL STUDIO 2022\\EXTERNAL_LIBS\\ASSIMP\\INCLUDE\\ASSIMP\\QUATERNION.INL||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\SpotLight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\SpotLight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\SpotLight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\SpotLight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|solutionrelative:OpenGLApp\\Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12DA4A46-DA1C-4755-8A96-8616AAD014FC}|OpenGLApp\\OpenGLApp.vcxproj|C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\SpotLight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -78,9 +92,9 @@
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\Main.cpp",
               "RelativeDocumentMoniker": "OpenGLApp\\Main.cpp",
-              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\Main.cpp",
-              "RelativeToolTip": "OpenGLApp\\Main.cpp",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAAAN4AAAATAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\Main.cpp*",
+              "RelativeToolTip": "OpenGLApp\\Main.cpp*",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAAAJwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-16T15:32:30.71Z",
               "IsPinned": true,
@@ -88,7 +102,57 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "quaternion.inl",
+              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\External_Libs\\ASSIMP\\include\\assimp\\quaternion.inl",
+              "RelativeDocumentMoniker": "..\\..\\..\\External_Libs\\ASSIMP\\include\\assimp\\quaternion.inl",
+              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\External_Libs\\ASSIMP\\include\\assimp\\quaternion.inl",
+              "RelativeToolTip": "..\\..\\..\\External_Libs\\ASSIMP\\include\\assimp\\quaternion.inl",
+              "ViewState": "AgIAAOAAAAAAAAAAAADgv/AAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-05-04T06:56:22.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "defs.h",
+              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\External_Libs\\ASSIMP\\include\\assimp\\defs.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\External_Libs\\ASSIMP\\include\\assimp\\defs.h",
+              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\External_Libs\\ASSIMP\\include\\assimp\\defs.h",
+              "RelativeToolTip": "..\\..\\..\\External_Libs\\ASSIMP\\include\\assimp\\defs.h",
+              "ViewState": "AgIAAB0BAAAAAAAAAADgvy8BAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-04T06:55:10.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Texture.cpp",
+              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\Texture.cpp",
+              "RelativeDocumentMoniker": "OpenGLApp\\Texture.cpp",
+              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\Texture.cpp",
+              "RelativeToolTip": "OpenGLApp\\Texture.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-04T05:17:50.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Texture.h",
+              "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\Texture.h",
+              "RelativeDocumentMoniker": "OpenGLApp\\Texture.h",
+              "ToolTip": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\Texture.h",
+              "RelativeToolTip": "OpenGLApp\\Texture.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-04T05:16:57.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Camera.cpp",
               "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\Camera.cpp",
               "RelativeDocumentMoniker": "OpenGLApp\\Camera.cpp",
@@ -96,12 +160,11 @@
               "RelativeToolTip": "OpenGLApp\\Camera.cpp",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAAEwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-03T15:46:30.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T15:46:30.038Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Camera.h",
               "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\Camera.h",
               "RelativeDocumentMoniker": "OpenGLApp\\Camera.h",
@@ -109,8 +172,7 @@
               "RelativeToolTip": "OpenGLApp\\Camera.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-03T15:45:40.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T15:45:40.535Z"
             },
             {
               "$type": "Document",
@@ -122,12 +184,11 @@
               "RelativeToolTip": "OpenGLApp\\SpotLight.cpp",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-03T06:10:42.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T06:10:42.207Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "SpotLight.h",
               "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\SpotLight.h",
               "RelativeDocumentMoniker": "OpenGLApp\\SpotLight.h",
@@ -135,12 +196,11 @@
               "RelativeToolTip": "OpenGLApp\\SpotLight.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-03T06:10:39.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T06:10:39.032Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Shader.h",
               "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\Shader.h",
               "RelativeDocumentMoniker": "OpenGLApp\\Shader.h",
@@ -148,12 +208,11 @@
               "RelativeToolTip": "OpenGLApp\\Shader.h",
               "ViewState": "AgIAACcAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-28T08:19:03.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-28T08:19:03.544Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Shader.cpp",
               "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\Shader.cpp",
               "RelativeDocumentMoniker": "OpenGLApp\\Shader.cpp",
@@ -161,12 +220,11 @@
               "RelativeToolTip": "OpenGLApp\\Shader.cpp",
               "ViewState": "AgIAAHkAAAAAAAAAAAAAwJYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-28T08:45:49.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-28T08:45:49.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "CommonValues.h",
               "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\CommonValues.h",
               "RelativeDocumentMoniker": "OpenGLApp\\CommonValues.h",
@@ -174,12 +232,11 @@
               "RelativeToolTip": "OpenGLApp\\CommonValues.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-29T08:21:36.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T08:21:36.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "PointLight.h",
               "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\PointLight.h",
               "RelativeDocumentMoniker": "OpenGLApp\\PointLight.h",
@@ -191,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "PointLight.cpp",
               "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\PointLight.cpp",
               "RelativeDocumentMoniker": "OpenGLApp\\PointLight.cpp",
@@ -203,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Material.cpp",
               "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\Material.cpp",
               "RelativeDocumentMoniker": "OpenGLApp\\Material.cpp",
@@ -215,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "DirectionalLight.cpp",
               "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\DirectionalLight.cpp",
               "RelativeDocumentMoniker": "OpenGLApp\\DirectionalLight.cpp",
@@ -223,12 +280,11 @@
               "RelativeToolTip": "OpenGLApp\\DirectionalLight.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-27T11:31:25.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T11:31:25.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "DirectionalLight.h",
               "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\DirectionalLight.h",
               "RelativeDocumentMoniker": "OpenGLApp\\DirectionalLight.h",
@@ -236,12 +292,11 @@
               "RelativeToolTip": "OpenGLApp\\DirectionalLight.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-27T11:06:12.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T11:06:12.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Light.h",
               "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\Light.h",
               "RelativeDocumentMoniker": "OpenGLApp\\Light.h",
@@ -249,12 +304,11 @@
               "RelativeToolTip": "OpenGLApp\\Light.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-26T09:09:08.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T09:09:08.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Light.cpp",
               "DocumentMoniker": "C:\\Users\\sayoo\\Documents\\Visual Studio 2022\\Projects\\main\\SynthWave-Engine\\OpenGLApp\\Light.cpp",
               "RelativeDocumentMoniker": "OpenGLApp\\Light.cpp",
@@ -262,8 +316,7 @@
               "RelativeToolTip": "OpenGLApp\\Light.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-26T09:35:28.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T09:35:28.49Z"
             }
           ]
         }

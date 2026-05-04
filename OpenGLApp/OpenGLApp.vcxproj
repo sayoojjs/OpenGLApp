@@ -25,6 +25,7 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Material.cpp" />
     <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Model.cpp" />
     <ClCompile Include="PointLight.cpp" />
     <ClCompile Include="Shader.cpp" />
     <ClCompile Include="SpotLight.cpp" />
@@ -38,6 +39,7 @@
     <ClInclude Include="Light.h" />
     <ClInclude Include="Material.h" />
     <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Model.h" />
     <ClInclude Include="PointLight.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="SpotLight.h" />
@@ -102,7 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLEW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLFW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLM;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLEW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLFW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLM;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\ASSIMP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -136,13 +138,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLEW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLFW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLM;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLEW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLFW\include;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLM;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\ASSIMP\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>Default</CompileAs>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLEW\lib\Release\x64;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLFW\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLEW\lib\Release\x64;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLFW\lib-vc2022;C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\ASSIMP\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;assimp-vc143-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
