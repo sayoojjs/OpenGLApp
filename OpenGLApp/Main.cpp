@@ -23,6 +23,7 @@
 #include "PointLight.h"
 #include "SpotLight.h"
 #include "Material.h"
+#include "Model.h"
 
 
 const float toRadians = 3.14159265f / 180.0f;
@@ -37,6 +38,9 @@ Texture dirtTexture;
 
 Material shinyMaterial;
 Material dullMaterial;
+
+Model sponza;
+//Model dragon;
 
 DirectionalLight mainLight;
 PointLight pointLights[MAX_POINT_LIGHTS];
@@ -154,6 +158,10 @@ int main()
 	shinyMaterial = Material(2.0f, 64);
 	dullMaterial = Material(0.3f, 4);
 
+	sponza = Model();
+	sponza.LoadModel("Models/Dragon.obj");
+
+
 	mainLight = DirectionalLight(0.0f, 0.0f, 0.0f, 
 		                        0.0f, 0.0f,
 		                        1.0f, -1.0f, -2.0f);
@@ -258,6 +266,13 @@ int main()
 		dirtTexture.UseTexture();
 		shinyMaterial.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		meshList[2]->RenderMesh();
+
+		model = glm::mat4(1.0f);
+		model = glm::translate(model, glm::vec3(0.0f, -2.0f, 0.0f));
+		model = glm::scale(model, glm::vec3(0.1f, 0.1f, 0.1f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		shinyMaterial.UseMaterial(uniformSpecularIntensity, uniformShininess);
+		sponza.RenderModel();
 
 		glUseProgram(0);
 
