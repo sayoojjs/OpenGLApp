@@ -1,24 +1,4 @@
-﻿  Camera.cpp
-  DirectionalLight.cpp
-  Light.cpp
-  Main.cpp
-C:\Users\sayoo\Documents\Visual Studio 2022\Projects\main\SynthWave-Engine\OpenGLApp\Main.cpp(204,15): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-  Material.cpp
-  Mesh.cpp
-  PointLight.cpp
-  Shader.cpp
-  SpotLight.cpp
-  Texture.cpp
-  Window.cpp
-C:\Users\sayoo\Documents\Visual Studio 2022\Projects\main\SynthWave-Engine\OpenGLApp\Window.cpp(136,22): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\sayoo\Documents\Visual Studio 2022\Projects\main\SynthWave-Engine\OpenGLApp\Window.cpp(137,22): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\sayoo\Documents\Visual Studio 2022\Projects\main\SynthWave-Engine\OpenGLApp\Window.cpp(141,28): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\sayoo\Documents\Visual Studio 2022\Projects\main\SynthWave-Engine\OpenGLApp\Window.cpp(142,40): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\sayoo\Documents\Visual Studio 2022\Projects\main\SynthWave-Engine\OpenGLApp\Window.cpp(144,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\sayoo\Documents\Visual Studio 2022\Projects\main\SynthWave-Engine\OpenGLApp\Window.cpp(145,21): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-  Generating Code...
-C:\Users\sayoo\Documents\Visual Studio 2022\Projects\main\SynthWave-Engine\OpenGLApp\Window.cpp(86,1): warning C4715: 'Window::Initialise': not all control paths return a value
-DirectionalLight.obj : error LNK2019: unresolved external symbol __imp____glewUniform1f referenced in function "public: void __thiscall DirectionalLight::UseLight(unsigned int,unsigned int,unsigned int,unsigned int)" (?UseLight@DirectionalLight@@QAEXIIII@Z)
+﻿DirectionalLight.obj : error LNK2019: unresolved external symbol __imp____glewUniform1f referenced in function "public: void __thiscall DirectionalLight::UseLight(unsigned int,unsigned int,unsigned int,unsigned int)" (?UseLight@DirectionalLight@@QAEXIIII@Z)
 Material.obj : error LNK2001: unresolved external symbol __imp____glewUniform1f
 PointLight.obj : error LNK2001: unresolved external symbol __imp____glewUniform1f
 SpotLight.obj : error LNK2001: unresolved external symbol __imp____glewUniform1f
@@ -30,8 +10,6 @@ Main.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose refe
 Main.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
 Main.obj : error LNK2019: unresolved external symbol _glfwGetTime referenced in function _main
 Main.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function "public: void __thiscall Window::swapBuffers(void)" (?swapBuffers@Window@@QAEXXZ)
-Main.obj : error LNK2019: unresolved external symbol "public: __thiscall Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QAE@XZ) referenced in function _main
-Main.obj : error LNK2019: unresolved external symbol "public: __thiscall Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QAE@XZ) referenced in function _main
 Main.obj : error LNK2019: unresolved external symbol __imp____glewUniformMatrix4fv referenced in function _main
 Main.obj : error LNK2019: unresolved external symbol __imp____glewUseProgram referenced in function _main
 Shader.obj : error LNK2001: unresolved external symbol __imp____glewUseProgram
@@ -44,6 +22,12 @@ Mesh.obj : error LNK2019: unresolved external symbol __imp____glewVertexAttribPo
 Mesh.obj : error LNK2019: unresolved external symbol __imp____glewBindVertexArray referenced in function "public: void __thiscall Mesh::CreateMesh(float *,unsigned int *,unsigned int,unsigned int)" (?CreateMesh@Mesh@@QAEXPAMPAIII@Z)
 Mesh.obj : error LNK2019: unresolved external symbol __imp____glewDeleteVertexArrays referenced in function "public: void __thiscall Mesh::ClearMesh(void)" (?ClearMesh@Mesh@@QAEXXZ)
 Mesh.obj : error LNK2019: unresolved external symbol __imp____glewGenVertexArrays referenced in function "public: void __thiscall Mesh::CreateMesh(float *,unsigned int *,unsigned int,unsigned int)" (?CreateMesh@Mesh@@QAEXPAMPAIII@Z)
+Model.obj : error LNK2019: unresolved external symbol "public: __thiscall Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QAE@XZ) referenced in function "public: void __thiscall Model::LoadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?LoadModel@Model@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Model.obj : error LNK2019: unresolved external symbol "public: __thiscall Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QAE@XZ) referenced in function "public: void __thiscall Model::LoadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?LoadModel@Model@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Model.obj : error LNK2019: unresolved external symbol "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@PBDI@Z) referenced in function "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+Model.obj : error LNK2019: unresolved external symbol "public: char const * __thiscall Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QBEPBDXZ) referenced in function "public: void __thiscall Model::LoadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?LoadModel@Model@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Model.obj : error LNK2019: unresolved external symbol _aiGetMaterialTextureCount referenced in function "public: unsigned int __thiscall aiMaterial::GetTextureCount(enum aiTextureType)const " (?GetTextureCount@aiMaterial@@QBEIW4aiTextureType@@@Z)
+Model.obj : error LNK2019: unresolved external symbol _aiGetMaterialTexture referenced in function "public: enum aiReturn __thiscall aiMaterial::GetTexture(enum aiTextureType,unsigned int,struct aiString *,enum aiTextureMapping *,unsigned int *,float *,enum aiTextureOp *,enum aiTextureMapMode *)const " (?GetTexture@aiMaterial@@QBE?AW4aiReturn@@W4aiTextureType@@IPAUaiString@@PAW4aiTextureMapping@@PAIPAMPAW4aiTextureOp@@PAW4aiTextureMapMode@@@Z)
 Shader.obj : error LNK2019: unresolved external symbol __imp____glewAttachShader referenced in function "private: void __thiscall Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@AAEXIPBDI@Z)
 Shader.obj : error LNK2019: unresolved external symbol __imp____glewCompileShader referenced in function "private: void __thiscall Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@AAEXIPBDI@Z)
 Shader.obj : error LNK2019: unresolved external symbol __imp____glewCreateProgram referenced in function "private: void __thiscall Shader::CompileShader(char const *,char const *)" (?CompileShader@Shader@@AAEXPBD0@Z)
@@ -78,4 +62,5 @@ Window.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent r
 Window.obj : error LNK2019: unresolved external symbol __imp__glewExperimental referenced in function "public: int __thiscall Window::Initialise(void)" (?Initialise@Window@@QAEHXZ)
 C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLEW\lib\Release\x64\glew32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
 C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\GLFW\lib-vc2022\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
-C:\Users\sayoo\Documents\Visual Studio 2022\Projects\main\SynthWave-Engine\Debug\OpenGLApp.exe : fatal error LNK1120: 51 unresolved externals
+C:\Users\sayoo\Documents\Visual Studio 2022\External_Libs\ASSIMP\lib\assimp-vc143-mt.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\sayoo\Documents\Visual Studio 2022\Projects\main\SynthWave-Engine\Debug\OpenGLApp.exe : fatal error LNK1120: 55 unresolved externals

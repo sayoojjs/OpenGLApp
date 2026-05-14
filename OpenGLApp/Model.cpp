@@ -104,7 +104,17 @@ void Model::LoadMaterials(const aiScene* scene)
 			aiString path;
 			if(material->GetTexture(aiTextureType_DIFFUSE, 0, &path) == AI_SUCCESS);
 			{
-				int idx = std::string(path.data).rfind("\\");
+				//int idx = std::string(path.data).rfind("\\");
+				/*STL Susbsitute*/
+				std::string pathStr(path.data);
+				int idx = -1;
+				for (int j = (int)pathStr.size() - 1; j >= 0; j--) {
+					if (pathStr[j] == '\\' || pathStr[j] == '/') {
+						idx = j;
+						break;
+					}
+				}
+				/******************************************************/
 				std::string filename = std::string(path.data).substr(idx + 1);
 
 				std::string texPath = std::string("Textures/") + filename;

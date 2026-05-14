@@ -159,11 +159,11 @@ int main()
 	dullMaterial = Material(0.3f, 4);
 
 	sponza = Model();
-	sponza.LoadModel("Models/Dragon.obj");
+	sponza.LoadModel("Models/sponza.obj");
 
 
 	mainLight = DirectionalLight(0.0f, 0.0f, 0.0f, 
-		                        0.0f, 0.0f,
+		                        0.5f, 1.0f,
 		                        1.0f, -1.0f, -2.0f);
 
 	unsigned int pointLightCount = 0;
